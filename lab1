@@ -1,0 +1,6 @@
+q1.SQL query to get year from date
+   SELECT YEAR('2004-09-24');
+Q2.check date is in correct format or not
+   SELECT DATE('2004-09-24');
+Q3.find tomorows date if currdate is passed
+   select date_add('2002-09-24',interval 1 day) AS INCREMENT;
