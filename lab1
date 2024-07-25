@@ -7,10 +7,17 @@ Q3.Find tommorrows date if currdate is passed
 q4.Retrevie username and password
    select user, authentication_string from mysql.user;
 q5.Get database date
-	SELECT CURRENT_TIMESTAMP;
+   SELECT CURRENT_TIMESTAMP;
 q6.Get default databse 
    show databases;
-q7.MYSQL sername and hostname
-	select user, host, authentication_string, plugin from mysql.user;
+q7.MYSQL username and hostname
+   select user, host, authentication_string, plugin from mysql.user;
+q8.MySQL server version
+   mysql -V
+q9.Bitwise xor ,and,or between two numbers
+   select 1&2 as ans, 1|2 as or, 1^2 as xor;
+q10. Difference between two dates
+   SELECT DATEDIFF("2017-06-25", "2017-06-15");
+ 	
 
 
